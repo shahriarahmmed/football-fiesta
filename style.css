@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+    padding: 0;
+}
+.home {
+    height: 90vh;
+    background-color: #161616;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slogan {
+    width: 50%;
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.slogan h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.slogan p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner img {
+    height: 800px;
+    width: 650px;
+    margin: 30px;
+}
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.fa-signal-stream {
+    color: red;
+}
