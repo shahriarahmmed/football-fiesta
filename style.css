@@ -37,21 +37,66 @@ button {
     width: 100px;
     border: 0px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
-.fa-signal-stream {
+/* .fa-signal-stream {
     color: red;
 }
 .blogs {
     margin-top: 50px;
 
-}
+} */
 .match-schedule {
     background-color: #161616;
-    display: ;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px;
     flex-direction: column;
     border-radius: 15px;
 }
-.match-schedule button {
-    flex-direction: column;
+.live-match {
+    background-color: red;
+    color: aliceblue;
+}
+.div.button{
+    padding-top: 0px;
+}
+.blog-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+.blogs {
+    display: inline-block;
+}
+.card {
+    height: 362px;
+    width: 312px;
+    display: block;
+    margin: 10px 0px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 0px;
+}
+.blog-img {
+    height: 150px;
+    /* width: 350; */
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.card-btn {
+    background-color: #fff;
+    margin: 10px;
+}
+.details {
+    margin: 10px;
+    justify-content: space-between;
+}
+.card p {
+    margin: 10px;
+}
+.time {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
 }
